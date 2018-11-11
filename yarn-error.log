@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/Keith/.nvm/versions/node/v10.13.0/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add express express-graphql grapql
+
+PATH: 
+  /Users/Keith/.sdkman/candidates/gradle/current/bin:/Users/Keith/.nvm/versions/node/v10.13.0/bin:/usr/local/opt/python@2/bin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/Keith/.local/bin:/Users/Keith/bin:/Users/Keith/Library/Android/sdk/platform-tools:/Users/Keith/Library/Android/sdk/build-tools/27.0.3:/Users/Keith/Library/Python/3.6/bin:/usr/local/opt/go/libexec/bin:/Users/Keith/go/bin:/Users/Keith/flutter/bin:/usr/local/opt/fzf/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/grapql: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:65894:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "firestore-express-graphql",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
