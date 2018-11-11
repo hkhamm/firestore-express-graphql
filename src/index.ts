@@ -219,7 +219,7 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 })
 app.use('/login', login)
 app.use('/api', api)
-app.get('/playground', expressPlayground({ endpoint: '/api' }))
+app.get('/playground', expressPlayground({ endpoint: '/login' }))
 app.listen(4000, () => {
     console.log('GraphQL Playground at http://localhost:4000/playground')
     console.log('Login at http://localhost:4000/login')
