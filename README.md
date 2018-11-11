@@ -49,7 +49,7 @@ interface Tweet {
 yarn start
 ```
 
-If you navigate to the URL you shoud be able to see a GraphQL playground where you can query your API.
+If you navigate to `/playground` you should see a GraphQL playground where you can query your API.
 
 ## Sample query
 
